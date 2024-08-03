@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User</title>
+    <link rel="stylesheet" href="/css/user.css" />
+  </head>
+  <body>
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Navbar Start -->
+
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Mas<span>Damzz</span>.</a>
+      <div class="navbar-nav">
+        <a href="index.html #home">Home</a>
+        <a href="index.html #about">Tentang Kami</a>
+        <a href="index.html #media">Menu</a>
+        <a href="index.html #contact">Contack</a>
+      </div>
+
+      <div class="navbar-exstra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <!-- <a href="#" id="user"><i data-feather="log-in"></i></a> -->
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Form -->
+    
+      <table id="user" class="user">
+        <div class="row">
+        <form>
+          <th colspan="3">
+            <h2>User Registrasion</h2>
+          </th>
+          <tr>
+            <td><label for="nama" class="judul-input">Nama</label></td>
+            <td>:</td>
+            <td>
+              <input
+                type="text"
+                id="nama"
+                name="nama"
+                placeholder="Isikan Nama Anda"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="gender" class="judul-input">Gender</label></td>
+            <td>:</td>
+            <td>
+              <input type="radio" id="laki" name="gender" value="laki" />
+              <label for="laki">Laki-Laki</label>
+              <input
+                type="radio"
+                id="perempuan"
+                name="gender"
+                value="perempuan"
+              />
+              <label for="perempuan">Perempuan</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="email" class="judul-input">Email</label></td>
+            <td>:</td>
+            <td>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Isikan Email Anda"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="alamat" class="judul-input">Alamat</label></td>
+            <td>:</td>
+            <td>
+              <textarea
+                name="alamat"
+                id="alamat"
+                placeholder="Isikan Alamat Anda"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="negara" class="judul-input">Negara</label></td>
+            <td>:</td>
+            <td>
+              <select name="negara" id="negara">
+                <option value="indonesia">Indonesia</option>
+                <option value="singapura">Singapura</option>
+                <option value="malaysia">Malaysia</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="file" class="judul-input">File</label></td>
+            <td>:</td>
+            <td><input type="file" id="file" name="file" /></td>
+          </tr>
+        </form>
+      </table>
+      <button type="submit" class="btn">Submit</button>
+    </div>
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="youtube"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#media"> Media</a>
+        <a href="#contact">Contack</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">adamfebriansyah</a>. | &copy; 2024</p>
+      </div>
+    </footer>
+
+    <!-- Footer End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
